@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    
+        background-image: url("Artboard\ 2.png");
+        background-size: cover; /* Ensures the image covers the entire background */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    }
+
+.header-text{
+    color: white;
+}
+/*------------ Login container ------------*/
+.box-area{
+    width:70%;
+    background-color:transparent; /* Semi-transparent background */
+}
+/*------------ Right box ------------*/
+.right-box{
+    padding: 10px;
+}
+/*------------ Custom Placeholder ------------*/
+::placeholder{
+    font-size: 14px;
+}
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+.custom-button {
+    background-color: #be994e; /* Custom background color */
+    color: white; /* Text color */
+    border: none; /* Remove border if needed */
+}
+
+.custom-button:hover {
+    background-color: #b18224; /* Darker shade on hover */
+}
+/*------------ For medium and small screens------------*/
+@media only screen and (max-width: 992px) {
+    .box-area {
+        width: 90%; /* Adjust width for medium screens */
+    }
+
+    .right-box {
+        padding: 10px; /* Adjust padding for medium screens */
+    }
+}
+/*------------ For small screens------------*/
+@media only screen and (max-width: 768px){
+     .box-area{
+        
+        width:90%;
+        background-color: transparent; /* Semi-transparent background */
+     }
+     
+     .right-box{
+        padding: 10px;
+     }
+}
+
