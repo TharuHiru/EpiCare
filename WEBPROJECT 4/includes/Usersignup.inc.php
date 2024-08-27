@@ -1,6 +1,5 @@
 <?php
 if (isset($_POST["submit"])) {
-   if (isset($_POST["submit"])) {
     // Database configuration
 $host = 'epicare.mysql.database.azure.com';
 $port = 3306;
@@ -22,6 +21,8 @@ if ($conn->connect_error) {
     exit();
 }
 
+if (isset($_POST["submit"])) {
+   
     $uid = $_POST['uid'];
     $email = $_POST['mail'];
     $pwd = $_POST['pwd'];
