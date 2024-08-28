@@ -67,7 +67,7 @@
                 </ul>
     </nav>
     <section>
-        <?php include 'includes/dashboard.inc.php'; ?>
+        <?php include 'WEBPROJECT 4/includes/dashboard.inc.php'; ?>
         <h1 style="color: #be994e; margin-left:20px">Welcome, <?php echo htmlspecialchars($_SESSION['userUid']); ?>!</h1>
         <p style="color: #be994e; margin-left:20px">Here is your dashboard overview:</p>
     </section>
