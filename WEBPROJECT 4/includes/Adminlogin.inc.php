@@ -1,8 +1,5 @@
-
 <?php
 if (isset($_POST["submit"])) {
-    //require 'dbh.inc.php';
-    // Database configuration
 $host = 'epicare.mysql.database.azure.com';
 $port = 3306;
 $username = 'EpiAdmin';
