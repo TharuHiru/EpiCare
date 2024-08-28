@@ -76,7 +76,8 @@ require_once 'includes/viewSelling.inc.php'; // Include the SQL file
                 </tr>
             </thead>
             <tbody>
-                <?php
+                <?PHP
+                require 'includes/dbh.inc.php';
                 if (mysqli_num_rows($result) > 0) {
                     while ($row = mysqli_fetch_assoc($result)) {
                         echo "<tr>";
