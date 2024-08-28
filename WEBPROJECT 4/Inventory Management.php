@@ -1,7 +1,8 @@
 <!--add categories into the list box when the page load-->
-<?php
+<?PHP
+    include 'includes/dashboard.inc.php';
     include 'includes/categoryList.inc.php';
-    include 'includes/dashboard.inc.php'; 
+     
 ?>
 
 <!DOCTYPE html>
