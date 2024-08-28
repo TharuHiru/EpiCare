@@ -1,7 +1,8 @@
+
 <?php
 if (isset($_POST["submit"])) {
-    
- // Database configuration
+    require 'dbh.inc.php';
+    // Database configuration
 $host = 'epicare.mysql.database.azure.com';
 $port = 3306;
 $username = 'EpiAdmin';
@@ -24,7 +25,6 @@ if ($conn->connect_error) {
 
     $uid = $_POST['uid'];
     $pwd = $_POST['pwd'];
-
     if (empty($uid) || empty($pwd)) {
         header("Location: ../Adminlogin.php?error=emptyfields");
         exit();
@@ -49,7 +49,6 @@ if ($conn->connect_error) {
                     session_start();
                     $_SESSION['userId'] = $row['id'];
                     $_SESSION['userUid'] = $row['username'];
-
                     header("Location:../dashboard.php?login=success");
                     exit();
                 } else {
