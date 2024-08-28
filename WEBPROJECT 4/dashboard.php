@@ -51,7 +51,7 @@
                 $currentPage = basename($_SERVER['PHP_SELF']);
                 ?>
                 <ul>
-                    <li><a href="Dashboard.php" class="<?php echo $currentPage == 'Dashboard.php' ? 'active' : ''; ?>">Dashboard</a></li>
+                    <li><a href="Dashboard.php" class="<?php echo $currentPage == 'dashboard.php' ? 'active' : ''; ?>">Dashboard</a></li>
                     <li><a href="User Management.php" class="<?php echo $currentPage == 'User Management.php' ? 'active' : ''; ?>">User Management</a></li>
                     <li><a href="Inventory Management.php" class="<?php echo $currentPage == 'Inventory Management.php' ? 'active' : ''; ?>">Inventory Management</a></li>
                     <li><a href="Inventory Tracking.php" class="<?php echo $currentPage == 'Inventory Tracking.php' ? 'active' : ''; ?>">Inventory Tracking</a></li>
