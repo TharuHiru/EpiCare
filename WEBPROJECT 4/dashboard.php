@@ -67,14 +67,14 @@
                 </ul>
     </nav>
     <section>
-        <?php include 'WEBPROJECT 4/includes/dashboard.inc.php'; ?>
+        <?php include 'includes/dashboard.inc.php'; ?>
         <h1 style="color: #be994e; margin-left:20px">Welcome, <?php echo htmlspecialchars($_SESSION['userUid']); ?>!</h1>
         <p style="color: #be994e; margin-left:20px">Here is your dashboard overview:</p>
     </section>
     <hr style="color:white";>
 
 <section>
-<?php include 'WEBPROJECT 4/includes/chart.inc.php'; ?>
+<?php include 'includes/chart.inc.php'; ?>
 <div class="row" style="justify-content: center; align-items: center;">
             <!-- User Management Overview -->
             <div class="col-lg-4 col-md-6" >
@@ -103,7 +103,7 @@
   </section>
   <hr style="color:white";>
   <section>
-  <?php include 'WEBPROJECT 4/includes/chart.inc.php'; ?>
+  <?php include 'includes/chart.inc.php'; ?>
     <div class="container">
         <h2 style="color: #be994e;">Category Distribution</h2>
         <canvas id="categoryPieChart"></canvas>
