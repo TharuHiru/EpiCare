@@ -1,7 +1,7 @@
 <!--add categories into the list box when the page load-->
 <?PHP
     include 'includes/dashboard.inc.php';
-    include 'includes/categoryList.inc.php';
+    //include 'includes/categoryList.inc.php';
      
 ?>
 
