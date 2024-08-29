@@ -114,7 +114,7 @@
             <!------------------------------------------------ User Table ---------------------------------------------------------------->
             <div id="alert-container"></div>   
             <?php
-                $items = include 'includes/viewItems.inc.php';
+                //$items = include 'includes/viewItems.inc.php';
                 ?>
                 <div class="table-container">
                 <table class="table table-bordered table-striped table-hover"  style="color: white; background-color: black; width: 100%; font-size: 1.1em; margin: 0 auto;">
