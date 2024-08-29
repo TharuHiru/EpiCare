@@ -1,6 +1,6 @@
 <?php
 include 'includes/dashboard.inc.php';
-require_once 'includes/viewSelling.inc.php'; // Include the SQL file
+//require_once 'includes/viewSelling.inc.php'; // Include the SQL file
 
 ?>
 
